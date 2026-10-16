@@ -129,8 +129,8 @@ export function HuellitasApp() {
               <button
                 type="button"
                 aria-current={tab === value ? 'page' : undefined}
-                onClick={() => { if (value === 'album') playMiau(); setTab(value); }}
-                className="flex w-full flex-col items-center gap-0.5 py-2.5 text-xs font-semibold text-muted-foreground aria-[current=page]:text-primary"
+                onClick={() => setTab(value)}
+className="flex w-full flex-col items-center justify-center gap-1"center gap-0.5 py-2.5 text-xs font-semibold text-muted-foreground aria-[current=page]:text-primary"
               >
                 <Icon className="size-5" aria-hidden="true" />
                 {label}
