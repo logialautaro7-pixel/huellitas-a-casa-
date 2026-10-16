@@ -130,7 +130,7 @@ export function HuellitasApp() {
                 type="button"
                 aria-current={tab === value ? 'page' : undefined}
                 onClick={() => setTab(value)}
-className="flex w-full flex-col items-center justify-center gap-1"center gap-0.5 py-2.5 text-xs font-semibold text-muted-foreground aria-[current=page]:text-primary"
+className="flex w-full flex-col items-center justify-center gap-1 py-2.5 text-xs"
               >
                 <Icon className="size-5" aria-hidden="true" />
                 {label}
