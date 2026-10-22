@@ -197,7 +197,7 @@ export function ReportDialog({
               </div>
               <Button
                 type="submit"
-                className="h-11 text-base font-bold text-white"
+                className="h-11 text-base font-bold text-white w-full mb-32 pb-4"
                 style={{ backgroundColor: meta.color }}
               >
                 Publicar aviso
