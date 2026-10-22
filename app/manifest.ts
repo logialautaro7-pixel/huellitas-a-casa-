@@ -3,7 +3,7 @@ import type { MetadataRoute } from 'next'
 export default function manifest(): MetadataRoute.Manifest {
   return {
     name: 'Huellitas a Casa - La Tablada',
-    short_name: 'Huellitas a casa',
+    short_name: 'Huellitas a Casa',
     description: 'Mascotas perdidas, encontradas y en adopción en La Tablada, Buenos Aires.',
     start_url: '/',
     display: 'standalone',
