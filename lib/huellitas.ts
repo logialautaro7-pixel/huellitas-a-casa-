@@ -13,7 +13,7 @@ export function reportPosition(r: Pick<Report, 'lat' | 'lng'>): [number, number]
     : DEFAULT_REPORT_POSITION
 }
 
-export type ReportType = 'perdido' | 'encontrado' | 'adopcion'
+ export type ReportType = 'perdido' | 'encontrado' | 'adopcion' | 'donacion'
 export type Species = 'perro' | 'gato' | 'otro'
 
 export type Report = {
