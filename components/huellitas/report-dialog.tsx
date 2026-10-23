@@ -21,8 +21,8 @@ const TITLES: Record<ReportType, { title: string; description: string }> = {
   perdido: { title: 'Perdí a mi mascota', description: 'Contale al barrio cómo es y dónde la viste por última vez.' },
   encontrado: { title: 'Encontré una mascota', description: 'Avisá dónde la encontraste para que su familia la ubique.' },
   adopcion: { title: 'Dar en adopción', description: 'Publicá a la mascota que busca una casa con amor.' },
+  donacion: { title: 'Donar algo', description: 'Doná alimento, cuchas, etc.' },
 }
-
 const SPECIES: { value: Species; label: string }[] = [
   { value: 'perro', label: 'Perro' },
   { value: 'gato', label: 'Gato' },
