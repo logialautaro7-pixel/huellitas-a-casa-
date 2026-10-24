@@ -9,7 +9,8 @@ const FILTERS: { value: ReportType | 'todos'; label: string }[] = [
   { value: 'todos', label: 'Todos' },
   { value: 'perdido', label: 'Perdidos' },
   { value: 'encontrado', label: 'Encontrados' },
-  { value: 'adopcion', label: 'Adopción' },
+    { value: 'adopcion', label: 'Adopción' },
+  { value: 'donacion', label: 'Donación / Ayuda / Insumos' },
 ]
 
 const timeAgo = (iso: string) => {
