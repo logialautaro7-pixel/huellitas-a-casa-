@@ -72,6 +72,13 @@ export const REPORT_META: Record<
     pinClass: 'bg-[#7c3aed]',
     badgeClass: 'bg-violet-100 text-violet-700',
   },
+      donacion: {
+        label: 'Donación',
+        action: 'DONACIÓN',
+        color: '#f59e0b',
+        pinClass: 'bg-[#f59e0b]',
+        badgeClass: 'bg-amber-100 text-amber-800',
+    },
 }
 
 export const CURRENT_NEIGHBOR_ID = 'vos'
